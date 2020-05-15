@@ -1,15 +1,45 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="utf-8">
-        <title>Basic Front Boilerplate</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css?family=Nunito:400,800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="sass/style.scss">
-    </head>
+  <head>
+    <meta charset="utf-8" />
+    <title>Menu Dropdown com CSS Puro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:400,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="sass/style.scss" />
+  </head>
 
-    <body>
-    </body>
+  <body>
+    <ul class="c-dropdown">
+      <li class="c-dropdown__item">
+        <a href="#" class="c-dropdown__link">In&iacute;cio</a>
+      </li>
 
-    <script src="js/index.js"></script>
+      <li class="c-dropdown__item">
+        <span class="c-dropdown__item-title">Melhores animes</span>
+
+        <ul class="c-dropdown__submenu">
+          <li class="c-dropdown__submenu-item">
+            <a href="#" class="c-dropdown__submenu-link">Shingeki no Kyojin</a>
+          </li>
+
+          <li class="c-dropdown__submenu-item">
+            <a href="#" class="c-dropdown__submenu-link">Bleach</a>
+          </li>
+
+          <li class="c-dropdown__submenu-item">
+            <a href="#" class="c-dropdown__submenu-link">Saint Seiya</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="c-dropdown__item">
+        <a href="#" class="c-dropdown__link">Contato</a>
+      </li>
+    </ul>
+  </body>
+
+  <script src="js/index.js"></script>
 </html>

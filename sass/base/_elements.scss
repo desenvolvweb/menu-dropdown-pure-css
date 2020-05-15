@@ -53,8 +53,11 @@ sub {
 // ==========================================================================
 
 body {
+  display: grid;
   font-family: Nunito, sans-serif;
   font-size: $global-font-size;
+  min-height: 10vh;
+  place-items: center;
 }
 
 // ::selection {
